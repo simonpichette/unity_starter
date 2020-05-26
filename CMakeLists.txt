@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
-project(tdddemo C)
-
+project(simulateur)
 set(CMAKE_C_STANDARD 99)
 
-add_executable(tdddemo main.c unity.c)
+add_subdirectory(src)
+add_subdirectory(test)
