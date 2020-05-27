@@ -1,3 +1,5 @@
+#include <stddef.h>
+#include <stdint.h>
 /*
 
 Exercice C bas niveau
@@ -68,7 +70,7 @@ char* strreverse(char *s)
 
 /* convertie un entier non signé en chaine de caractère.
    s est un tampon existant pouvant recevoir la chaîne (il faut au max 13 cases) */
-char* longtodec(unsigned int l, char* s);
+char* longtodec(unsigned int l, char* s)
 {
     unsigned char i = 0;
     while(l > 0) {

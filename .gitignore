@@ -1,0 +1,14 @@
+
+*.cmake
+
+cmake-build-debug/test/CMakeFiles/test.dir/
+
+cmake-build-debug/test/unity/CMakeFiles/unity.dir/
+
+cmake-build-debug/test/unity/
+
+cmake-build-debug/test/Makefile
+
+.idea/
+
+cmake-build-debug/
